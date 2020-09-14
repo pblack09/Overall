@@ -1,5 +1,5 @@
 # Overall
 
-![register](app/src/main/res/screenshots/register.png)
-![login](app/src/main/res/screenshots/login.png)
-![profile](app/src/main/res/screenshots/profile.png)
+<img src="app/src/main/res/screenshots/register.png" width="250">
+<img src="app/src/main/res/screenshots/login.png" width="250">
+<img src="app/src/main/res/screenshots/profile.png" width="250">
