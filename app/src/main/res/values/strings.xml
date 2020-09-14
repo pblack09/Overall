@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Overall Test</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="philip_black">Philip Black</string>
+    <string name="android_developer">Android Developer</string>
+    <string name="birthday_04_04_1991">Birthday: 04/04/1991</string>
+    <string name="qualifications_unt_graduate">Qualifications: UNT Graduate</string>
+    <string name="linkedin">Website: linkedin.com/in/philipblack12</string>
+    <string name="employed_true">Status: Employed</string>
+    <string name="philip_email">Contact Info: philipblack12@gmail.com</string>
+    <string name="philip_location">McKinney, TX</string>
+    <string name="user_profile">User Profile</string>
+</resources>

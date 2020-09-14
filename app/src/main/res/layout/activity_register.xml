@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryBackground"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/register_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/register_email"
+        android:background="@color/colorPrimaryLight"
+        android:hint="Username"
+        android:paddingHorizontal="6dp"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/register_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/register_password"
+        android:layout_marginVertical="12dp"
+        android:background="@color/colorPrimaryLight"
+        android:hint="Email"
+        android:paddingHorizontal="6dp"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryLight"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:layout_above="@id/register_confirm_password"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingHorizontal="6dp"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/register_confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="12dp"
+        android:background="@color/colorPrimaryLight"
+        android:layout_centerInParent="true"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:paddingHorizontal="6dp"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/register_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_confirm_password"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_button"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/register_go_to_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_submit"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="12dp"
+        android:background="@drawable/custom_button"
+        android:paddingHorizontal="10sp"
+        android:text="Login to Existing Account" />
+
+</RelativeLayout>
